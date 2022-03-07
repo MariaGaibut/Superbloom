@@ -1,0 +1,33 @@
+.forum {
+  background-color: rgba(82, 40, 64, 1);
+  text-align: center;
+  padding: 100px;
+
+  &__text {
+    margin: auto;
+    max-width: 820px;
+    text-align: center;
+    color: white;
+    font-family: Roboto sans-serif;
+    font-size: 34px;
+    letter-spacing: 0.5px;
+    line-height: 44px;
+  }
+  &__img{
+    margin-bottom: 30px;
+  }
+  &__btn{
+    width: 245px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: 50px;
+
+    font-family: Roboto sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(0, 64,47,1);
+  }
+}

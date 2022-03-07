@@ -1,4 +1,4 @@
-@import './main/stylesheet';
+@import "./main/stylesheet";
 
 *{
   box-sizing: border-box;
@@ -10,3 +10,6 @@
   margin: 0;
   padding: 0 10px;
 }
+
+@import "./components/forum";
+@import "./components/mission";

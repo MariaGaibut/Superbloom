@@ -1,0 +1,13 @@
+.mission{
+  background-color: rgba(132, 154, 203, 1);
+}
+.mission .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.mission__content{
+  max-width: 50%;
+}
+.mission__img{
+  max-width: 50%;
+}

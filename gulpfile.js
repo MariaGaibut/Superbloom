@@ -6,6 +6,7 @@ const gulp = require('gulp'),
     pug = require('gulp-pug'),
     plumber = require('gulp-plumber');
 
+// функция обновления страницы при изменениях в файлах билда
 function browserSyncFunc(){
     browserSync.init({
         server: {
@@ -13,11 +14,13 @@ function browserSyncFunc(){
         }
     })
 }
+// функция копирования изображений
 function images() {
     return gulp.src('src/assets/imgs/**/*')
         .pipe(gulp.dest('build/assets/imgs'))
         .pipe(browserSync.stream())
 }
+// функция преобразования scss в css
 function scss() {
     return gulp.src('src/assets/scss/app.scss')
     .pipe(sass().on('error', sass.logError))
@@ -29,6 +32,7 @@ function scss() {
     .pipe(gulp.dest('build/assets/css'))
     .pipe(browserSync.stream())
 }
+// функция для преобразования pug в html
 function pugFunc() {
     return gulp.src('src/pug/*.pug')
     .pipe(plumber())
@@ -39,12 +43,13 @@ function pugFunc() {
     .pipe(gulp.dest('build'))
     .on('end', browserSync.reload)
 }
-
+// функция отслеживания изменения в файлах исходников
 function watcher() {
     gulp.watch('src/pug/**/*.pug', pugFunc)
     gulp.watch('src/assets/scss', scss)
     gulp.watch('src/assets/imgs/**/*', images)
 }
+//команда запуска по умолчанию (gulp)
 gulp.task(
     'default',
     gulp.series(
