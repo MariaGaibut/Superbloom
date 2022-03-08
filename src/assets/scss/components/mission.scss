@@ -1,13 +1,51 @@
 .mission{
   background-color: rgba(132, 154, 203, 1);
+  position: relative;
+  padding: 70px;
 }
 .mission .container{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .mission__content{
   max-width: 50%;
+  padding-top: 100px ;
+
 }
 .mission__img{
   max-width: 50%;
+
+}
+.mission__logo{
+  position: absolute;
+  right: 3vw;
+  top: 350px;
+}
+.mission__subtitle{
+  font-family: Roboto;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 4.3px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mission__text{
+  font-family: Roboto;
+  font-size: 34px;
+  line-height: 51px;
+  color: white;
+  margin: 40px 0;
+}
+.mission__btn{
+  width: 165px;
+  height: 20px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: rgba(132, 154, 203, 1);
+  color: white;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
 }

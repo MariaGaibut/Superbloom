@@ -1,0 +1,26 @@
+//.quote{
+//  padding: 75px 250px;
+//}
+.quote .container{
+  max-width: 900px;
+  margin: 75px auto;
+}
+.quote__text{
+  font-family: Roboto;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  color: rgba(0, 64, 47, 1);
+}
+.quote__img{
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+}
+.quote__subtitle{
+  font-family: Roboto;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(0, 64, 47, 1);
+}
