@@ -21,6 +21,10 @@
     text-transform: uppercase;
     border: 1px solid rgba(0, 64, 47, 1);
 }
+.top__sign:hover{
+    color: rgba(0, 64, 47, 1);
+    background-color: white; 
+}
 .top__btn{
     position: absolute;
     right: 216px;
@@ -33,6 +37,10 @@
     text-align: center;
     text-transform: uppercase;
     border: 1px solid lightgray;
+}
+.top__btn:hover{
+    background-color: rgba(0, 64, 47, 1);
+    color: white;
 }
 .top__nav a{
     font-family: 'Roboto';

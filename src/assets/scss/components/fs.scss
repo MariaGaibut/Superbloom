@@ -51,6 +51,10 @@ li{
   text-transform: uppercase;
   color: rgba(0, 64, 47, 1);
 }
+.fs__btn:hover{
+  background-color: rgba(0, 64, 47, 1);
+  color: white;
+}
 @media (max-width:425.75px){
   .fs__img{
     max-width: 100%;

@@ -43,6 +43,11 @@
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
+.care__btn:hover{
+  background-color: white;
+  color: rgba(0, 64, 47, 1);
+}
+
 @media (max-width:425.75px){
   .care__img{
     max-width: 100%;

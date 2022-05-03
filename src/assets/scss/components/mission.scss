@@ -49,6 +49,10 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+.mission__btn:hover{
+  background-color: white;
+  color: rgba(132, 154, 203, 1);
+}
 @media (max-width:425.75px){
   .mission__logo{
     display: none;
