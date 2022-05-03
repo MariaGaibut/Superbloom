@@ -11,12 +11,12 @@
 .mission__content{
   max-width: 50%;
   padding-top: 100px ;
-
 }
+
 .mission__img{
   max-width: 50%;
-
 }
+
 .mission__logo{
   position: absolute;
   right: 3vw;
@@ -48,4 +48,15 @@
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+}
+@media (max-width:425.75px){
+  .mission__logo{
+    display: none;
+  }
+  .mission__img{
+    max-width: 100%;
+  }
+  .mission__content{
+    max-width: 100%;
+  }
 }

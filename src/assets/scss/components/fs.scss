@@ -51,3 +51,11 @@ li{
   text-transform: uppercase;
   color: rgba(0, 64, 47, 1);
 }
+@media (max-width:425.75px){
+  .fs__img{
+    max-width: 100%;
+  }
+  .fs__content{
+    max-width: 100%;
+  }
+}

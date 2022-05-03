@@ -1,4 +1,4 @@
-@import "./main/stylesheet";
+@import "./main/stylesheet.css";
 
 *{
   box-sizing: border-box;
@@ -16,3 +16,6 @@
 @import "./components/quote";
 @import "./components/care";
 @import "./components/fs";
+@import "./components/topper.scss";
+@import "./components/content.scss";
+@import "./components/bottom.scss";

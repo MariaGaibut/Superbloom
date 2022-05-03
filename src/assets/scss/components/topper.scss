@@ -1,0 +1,75 @@
+.top{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+    background-color: white;
+    height: 85px;
+}
+
+.top__sign{
+    position: absolute;
+    right: 0;
+    width: 216px;
+    height: 85px;
+    background-color: rgba(0, 64, 47, 1);
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto';
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid rgba(0, 64, 47, 1);
+}
+.top__btn{
+    position: absolute;
+    right: 216px;
+    width: 160px;
+    height: 85px;
+    color: rgba(0, 64, 47, 1);
+    background-color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid lightgray;
+}
+.top__nav a{
+    font-family: 'Roboto';
+    text-align: center;
+    color: rgba(0, 64, 47, 1);
+    font-size: 12px; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+}
+.top__nav{
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 810px;
+    margin-left: 500px;
+
+}
+.top__nav p{
+    padding: 35px;
+}
+.top__logo{
+    position: absolute;
+    left: 34px;
+    top: 23px;
+}
+
+@media (max-width:425.75px){
+    .top__sign{
+        display: none;
+    }
+    .top__btn{
+        width: 160px;
+        height: 60px;
+        right: 0px;
+        top: 0px;
+    }
+    
+    .top{
+        height: 60px;
+    }
+}

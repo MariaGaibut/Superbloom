@@ -1,0 +1,24 @@
+.bottom .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 80px 145px;
+}
+.bottom__col-link{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 19px;
+    line-height: 20px;
+    color: rgba(0, 64, 47, 1);
+}
+.bottom__col-text{
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 64, 47, 1);
+}
+@media (max-width:425.75px){
+    .bottom .container{
+        margin: 30px 35px;
+    }
+}

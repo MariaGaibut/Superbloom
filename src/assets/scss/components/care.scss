@@ -43,3 +43,11 @@
   letter-spacing: 2.5px;
   text-transform: uppercase;
 }
+@media (max-width:425.75px){
+  .care__img{
+    max-width: 100%;
+  }
+  .care__content{
+    max-width: 100%;
+  }
+}

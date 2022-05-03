@@ -1,0 +1,29 @@
+.content__block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.content__block img{
+    max-width: 50%;
+}
+.content__block--text{
+    max-width: 50%;
+    color: rgba(0, 64, 47, 1);
+    font-family: 'Roboto';
+    
+}
+.content__block--text h2{
+    font-size: 36px;
+    line-height: 39px;
+}
+.content__block--text p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.content__img{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    margin-left: 50vw;
+}
